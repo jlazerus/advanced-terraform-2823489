@@ -60,7 +60,10 @@ resource "aws_security_group" "sg_frontend" {
 # MODULES
 # //////////////////////////////
 module "vpc" {
-  source = "terraform-aws-modules/vpc/aws"
+  source  = "terraform-aws-modules/vpc/aws"
+  version = "2.64.0"
+  # insert the 14 required variables here
+
   name = "frontend-vpc"
   cidr = "10.0.0.0/16"
 
