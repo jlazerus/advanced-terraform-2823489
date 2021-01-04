@@ -3,5 +3,5 @@ terraform init \
     -backend-config="key=jlazerus/ecommerceapp/app.state" \
     -backend-config="region=us-east-2" \
     -backend-config="dynamodb_table=jlazerus-tfstatelock" \
-    -backend-config="access_key=AKIAYSIM352DL5HM2AMK" \
-    -backend-config="secret_key=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"
+    -backend-config="access_key=xxxxxxx" \
+    -backend-config="secret_key=xxxxxxx"
